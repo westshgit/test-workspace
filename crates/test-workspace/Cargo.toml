@@ -1,0 +1,8 @@
+[package]
+name = "test-workspace"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+test-lib = { path = "../test-lib" }
+test-lib_2 = { path = "../test-lib_2" }
